@@ -1,0 +1,38 @@
+body, html {
+    background: linear-gradient(top to bottom, orange, white);
+    background: no-repeat;
+    height: 100%;
+}
+body {
+    display: flex;
+}
+
+div {
+    border: dotted 2px gray;
+    margin: 10px;
+}
+#tuesdayContainer {
+    position: absolute;
+    right: 0px;
+}
+#wednesdayContainer {
+    position: absolute;
+    left: 0px;
+    
+}
+
+#mondayImage {
+    width:300px;
+}
+#tuesdayImage {
+    width:300px;
+}
+#wednesdayImage {
+    width:300px;
+}
+#thursdayImage {
+    width:300px;
+}
+#fridayImage {
+    width:300px;
+}
